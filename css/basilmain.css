@@ -90,6 +90,11 @@ body {
     margin: auto;
     padding: 0px 90px 50px;
 }
+.footer img{
+    margin: auto;
+    display: flex;
+    padding: 0px 90px 50px;
+}
 .footer-c{
     background-color: var(--detail-color);
     margin: auto;
@@ -106,6 +111,28 @@ body {
     padding-right: 40px;
 }
 
+.news-article {
+    margin-bottom: 20px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--hover-color);
+}
+
+.news-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 4x;
+}
+
+.news-date {
+    font-size: 18px;
+    color: var(--hover-color);
+    margin-bottom: 0px;
+}
+
+.news-article p {
+    line-height: 1.5;
+    padding: 0px 40px ;
+}
 
 .nav-item-link:active{
     color: var(--detail-color);
@@ -169,7 +196,7 @@ body {
 .mission-c{
     background-color: var(--detail-color);
     margin: auto;
-    height: 720px;
+    min-height: 720px;
     justify-content: space-between;
 
     border: 2px solid var(--accent-color);
@@ -178,7 +205,7 @@ body {
 .mission-c1{
     background-color: var(--detail-color);
     margin: auto;
-    height: 720px;
+    min-height: 720px;
     justify-content: space-between;
 
     border: 2px solid var(--accent-color);
