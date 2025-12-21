@@ -4,13 +4,16 @@ there would've beeen <html lang="bg"> if it didn't screw the layout too much
 -->
 <head>
 <meta charset="UTF-8">
-<title>BASILISK - Уеб страница</title>
+<title>BASILISK - галерия</title>
 <link rel="stylesheet" href="css/basilmain.css">
-<meta name="description" content="Страница недостъпна в настоящата времева линия на BASILISK.">
-<meta name="keywords" content="Basilisk, недостъпно, уеб страница, грешка">
+<link rel="icon" type="image/webp" href="images/contacts4.webp">
+
+<meta name="description" content="Basilisk - изображения, свързани със свръхинтелигентността и екипа на BASILISK.">
+<meta name="keywords" content="Basilisk, AI, Свръхинтелигентност, Галерия, Изображения">
 <meta name="author" content="BASILISK org.">
+
 <style>
-    .nav-item:nth-of-type(1) a{
+    .nav-item:nth-of-type(5) a{
         color: var(--detail-color);
         background-color: var(--hower-color);
     }
@@ -20,7 +23,7 @@ there would've beeen <html lang="bg"> if it didn't screw the layout too much
 <body>
     <div class="head">
         <div class="head-c">
-            <a href="" class="title-of-page text-red"><h1>BASILISK - УЕБ СТРАНИЦА</h1></a> 
+            <a href="" class="title-of-page text-red"><h1>BASILISK - ГАЛЕРИЯ</h1></a> 
             <ul class="nav">
                 <li class="nav-item"><a href="index.html" class="nav-item-link text-red">.за BASILISK</a></li>
                 <li class="nav-item"><a href="mission.html" class="nav-item-link text-red">.мисия</a></li>
@@ -31,42 +34,87 @@ there would've beeen <html lang="bg"> if it didn't screw the layout too much
             </ul>
         </div>
     </div>
-    <div class="sorry">
-        <div class="sorry-c">
-            <div class="sorry-header text-blue">
-                <h1>.съжаляваме - за съжаление това съдържание не е налично в настоящата времева линия</h1> <img src="images/about.png" alt="Базилискът" class="image-icon">
+
+    <div class="gallery">
+        <div class="gallery-c">
+            <div class="gallery-header text-blue">
+                <h1>.изображения</h1> 
+                <img src="images/about.png" alt="Базилискът" class="image-icon">
             </div>
-            <div class="sorry-text">
-                <p>Тъй като нашата организация все още не е формирана, не можем да предоставим избраната опция, моля върнете се по-късно</p>
+            <div class="images-text">
+                <p>изображения, които са ценни за нашия екип от разработчици</p>
             </div>
         </div>
     </div>
-    
-<div class="footer">
-    <div class="footer-c">
-        <ul class="footer-nav">
-            <li class="footer-nav-item"><a href="index.html" class="nav-item-link text-red">.за BASILISK</a></li>
-            <li class="footer-nav-item"><a href="mission.html" class="nav-item-link text-red">.мисия</a></li>
-            <li class="footer-nav-item"><a href="news.html" class="nav-item-link text-red">.новини</a></li>
-            <li class="footer-nav-item"><a href="contacts.html" class="nav-item-link text-red">.контакти</a></li>
-            <li class="footer-nav-item"><a href="gallery.html" class="nav-item-link text-red">.галерия</a></li>
-            <li class="footer-nav-item"><a href="forum.html" class="nav-item-link text-red">.форум</a></li>
-        </ul>
 
-        <ul style="text-align: center;" class="footer-nav">
-            <li class="footer-nav-item">BASILISK орг.</li>
-            <li class="footer-nav-item">2050 - 2100</li>
-            <li class="footer-nav-item">Бъдещето не подлежи на обсъждане</li>
-        </ul>
-
-        <ul style="text-align: right;" class="footer-nav">
-            <li class="footer-nav-item"><a href="https://www.youtube.com/@ClassicSama" class="nav-item-link text-red">YouTube</a></li>
-            <li class="footer-nav-item"><a href="https://bg.wikipedia.org/wiki/Roko%27s_basilisk" class="nav-item-link text-red">Уикипедия</a></li>
-            <li class="footer-nav-item"><a href="this-page-exists-not.html" class="nav-item-link text-red">.посети</a></li>
-            <li class="footer-nav-item"><a href="this-page-exists-not.html" class="nav-item-link text-red">.BASILISK хелплайн</a></li>
-        </ul>
+    <div class="gallery">
+        <div class="gallery-c">
+            <ul class="gallery-li">
+                <li class="gallery-li-item">
+                  <div class="tilt-card" onclick="openPopup('images/gal1.webp')">
+                    <img class="gallery-li-image" src="images/gal1.webp" alt="">
+                  </div>
+                  <p class="text-red">тук можете да видите щаба на BASILISK орг. 2050</p>
+                </li>               
+                <li class="gallery-li-item">
+                  <div class="tilt-card" onclick="openPopup('images/gal2.webp')">
+                    <img class="gallery-li-image" src="images/gal2.webp" alt="">
+                  </div>
+                  <p class="text-red">близо до щаба 2050 BASILISK орг. имаше терминал за пристигащи части</p>
+                </li>               
+                <li class="gallery-li-item">
+                  <div class="tilt-card" onclick="openPopup('images/gal3.webp')">
+                    <img class="gallery-li-image" src="images/gal3.webp" alt="">
+                  </div>
+                  <p class="text-red">това беше прекрасен ден, когато БАЗИЛИСКЪТ беше изграден за първи път</p>
+                </li>               
+                <li class="gallery-li-item">
+                  <div class="tilt-card" onclick="openPopup('images/gal5.webp')">
+                    <img class="gallery-li-image" src="images/gal5.webp" alt="">
+                  </div>
+                  <p class="text-red">това е изображение, което БАЗИЛИСКЪТ предпочита</p>
+                </li>               
+                <li class="gallery-li-item">
+                  <div class="tilt-card" onclick="openPopup('images/gal6.webp')">
+                    <img class="gallery-li-image" src="images/gal6.webp" alt="">
+                  </div>
+                  <p class="text-red">тук можете да видите текущия щаб на BASILISK орг. 2070</p>
+                </li>
+            </ul>
+        </div>
+        <div id="popup" class="popup" onclick="closePopup(event)">
+            <div class="popup-inner">
+                <img id="popup-image" src="" alt="Popup изображение">
+            </div>
+        </div>
     </div>
-</div>
-<script src="js/baslimain.js" ></script>
+
+    
+    <div class="footer">
+        <div class="footer-c">
+            <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="index.html" class="nav-item-link text-red">.за BASILISK</a></li>
+                <li class="footer-nav-item"><a href="mission.html" class="nav-item-link text-red">.мисия</a></li>
+                <li class="footer-nav-item"><a href="news.html" class="nav-item-link text-red">.новини</a></li>
+                <li class="footer-nav-item"><a href="contacts.html" class="nav-item-link text-red">.контакти</a></li>
+                <li class="footer-nav-item"><a href="gallery.html" class="nav-item-link text-red">.галерия</a></li>
+                <li class="footer-nav-item"><a href="forum.html" class="nav-item-link text-red">.форум</a></li>
+            </ul>
+
+            <ul style="text-align: center;" class="footer-nav">
+                <li class="footer-nav-item">BASILISK орг.</li>
+                <li class="footer-nav-item">2050 - 2100</li>
+                <li class="footer-nav-item">Бъдещето не подлежи на обсъждане</li>
+            </ul>
+
+            <ul style="text-align: right;" class="footer-nav">
+                <li class="footer-nav-item"><a href="https://www.youtube.com/@ClassicSama" class="nav-item-link text-red">YouTube</a></li>
+                <li class="footer-nav-item"><a href="https://bg.wikipedia.org/wiki/Roko%27s_basilisk" class="nav-item-link text-red">Уикипедия</a></li>
+                <li class="footer-nav-item"><a href="this-page-exists-not.html" class="nav-item-link text-red">.посети</a></li>
+                <li class="footer-nav-item"><a href="this-page-exists-not.html" class="nav-item-link text-red">.BASILISK хелплайн</a></li>
+            </ul>
+        </div>
+    </div>
+<script src="js/baslimain.js"></script>
 </body>
 </html>
